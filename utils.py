@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import requests
 
-RAW_BASE = "https://raw.githubusercontent.com/DavidLangworthy/ds4s/main/"
+RAW_BASE = "https://raw.githubusercontent.com/DavidLangworthy/ds4s/master/"
 
 
 def ensure_local_path(relative_path: str, *, base_url: str = RAW_BASE) -> Path:
