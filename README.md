@@ -13,19 +13,19 @@ This course is about **using code as a storytelling tool** — not mastering syn
 
 ## 📚 Course roadmap
 
-### Day 1 – Climate Change & Basic Plotting
-Get comfortable with Colab, wrangle time-series climate data, and build polished line charts that highlight long-term temperature trends. [Open in Google Colab](https://colab.research.google.com/github/ds4s/ds4s/blob/main/days/day01/notebook/day01_starter.ipynb)
+### Climate Change & Basic Plotting [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ds4s/ds4s/blob/work/days/day01/notebook/day01_starter.ipynb)
+Wrangle global temperature records, practice time-series cleaning, and build line plots that reveal long-term climate trends.
 
-### Day 2 – Fossil Fuels vs. Renewables
-Compare energy production sources, calculate key summary statistics, and practice bar plots and stacked visuals that surface trade-offs in the energy mix. [Open in Google Colab](https://colab.research.google.com/github/ds4s/ds4s/blob/main/days/day02/notebook/day02_starter.ipynb)
+### Fossil Fuels vs. Renewables [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ds4s/ds4s/blob/work/days/day02/notebook/day02_starter.ipynb)
+Analyze energy mix data, compare categories with grouped bar charts, and calculate summary statistics that highlight trade-offs.
 
-### Day 3 – Pollution and Public Health
-Explore air-quality and health indicators, join multiple datasets, and communicate correlation findings with scatter plots and regression overlays. [Open in Google Colab](https://colab.research.google.com/github/ds4s/ds4s/blob/main/days/day03/notebook/day03_starter.ipynb)
+### Pollution and Public Health [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ds4s/ds4s/blob/work/days/day03/notebook/day03_starter.ipynb)
+Join air-quality and health datasets, explore correlations with scatter plots, and interpret regression fits for policy insight.
 
-### Day 4 – Biodiversity & Deforestation Mapping
-Work with geospatial data, create choropleths and interactive maps, and tell regional stories about habitat loss and conservation hotspots. [Open in Google Colab](https://colab.research.google.com/github/ds4s/ds4s/blob/main/days/day04/notebook/day04_starter.ipynb)
+### Biodiversity & Deforestation Mapping [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ds4s/ds4s/blob/work/days/day04/notebook/day04_starter.ipynb)
+Work with geospatial data, design choropleth and interactive maps, and spot hotspots that tell a conservation story.
 
-### Day 5 – Capstone: CO₂ Emissions & Global Temperature
-Synthesize the week by combining multiple datasets, designing multi-panel visuals, and writing a narrative that connects emissions to climate impacts. [Open in Google Colab](https://colab.research.google.com/github/ds4s/ds4s/blob/main/days/day05/notebook/day05_starter.ipynb)
+### Capstone: CO₂ Emissions & Global Temperature [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ds4s/ds4s/blob/work/days/day05/notebook/day05_starter.ipynb)
+Combine multiple datasets, orchestrate multi-panel visuals, and narrate how emissions connect to global climate impacts.
 
 All notebooks now read from the datasets bundled in the [`data/`](data) directory so the lessons work completely offline.
