@@ -91,6 +91,7 @@ jobs:
         if: needs.execute-notebooks.outputs.changes == 'true'
         with:
           fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref || github.ref_name }}
       - uses: actions/download-artifact@v4
         if: needs.execute-notebooks.outputs.changes == 'true'
         with:
@@ -100,13 +101,17 @@ jobs:
         if: needs.execute-notebooks.outputs.changes == 'true'
         run: tar xzf generated-content.tgz
       - name: Commit starter notebooks
-        if: github.event_name == 'push' && needs.execute-notebooks.outputs.changes == 'true'
+        if: needs.execute-notebooks.outputs.changes == 'true'
         env:
-          TARGET_BRANCH: ${{ github.ref_name }}
+          TARGET_BRANCH: ${{ github.event.pull_request.head.ref || github.ref_name }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout "$TARGET_BRANCH"
           git add days plots
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
           git commit -m "chore: regenerate starter notebooks"
-          git push origin HEAD
+          git push origin "HEAD:$TARGET_BRANCH"
