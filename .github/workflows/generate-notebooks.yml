@@ -44,7 +44,7 @@ jobs:
   execute-notebooks:
     runs-on: ubuntu-latest
     needs: sync-starters
-    if: needs.sync-starters.outputs.starters_changed == 'false'
+    if: needs.sync-starters.result == 'success'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
