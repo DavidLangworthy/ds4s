@@ -13,19 +13,19 @@ This course is about **using code as a storytelling tool** — not mastering syn
 
 ## 📚 Course roadmap
 
-### Climate Change & Basic Plotting [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/davidlangworthy/ds4s/blob/work/days/day01/notebook/day01_starter.ipynb)
+### Climate Change & Basic Plotting [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DavidLangworthy/ds4s/blob/master/days/day01/notebook/day01_starter.ipynb)
 Wrangle global temperature records, practice time-series cleaning, and build line plots that reveal long-term climate trends.
 
-### Fossil Fuels vs. Renewables [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/davidlangworthy/ds4s/blob/work/days/day02/notebook/day02_starter.ipynb)
+### Fossil Fuels vs. Renewables [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DavidLangworthy/ds4s/blob/master/days/day02/notebook/day02_starter.ipynb)
 Analyze energy mix data, compare categories with grouped bar charts, and calculate summary statistics that highlight trade-offs.
 
-### Pollution and Public Health [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/davidlangworthy/ds4s/blob/work/days/day03/notebook/day03_starter.ipynb)
+### Pollution and Public Health [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DavidLangworthy/ds4s/blob/master/days/day03/notebook/day03_starter.ipynb)
 Join air-quality and health datasets, explore correlations with scatter plots, and interpret regression fits for policy insight.
 
-### Biodiversity & Deforestation Mapping [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/davidlangworthy/ds4s/blob/work/days/day04/notebook/day04_starter.ipynb)
+### Biodiversity & Deforestation Mapping [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DavidLangworthy/ds4s/blob/master/days/day04/notebook/day04_starter.ipynb)
 Work with geospatial data, design choropleth and interactive maps, and spot hotspots that tell a conservation story.
 
-### Capstone: CO₂ Emissions & Global Temperature [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/davidlangworthy/ds4s/blob/work/days/day05/notebook/day05_starter.ipynb)
+### Capstone: CO₂ Emissions & Global Temperature [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DavidLangworthy/ds4s/blob/master/days/day05/notebook/day05_starter.ipynb)
 Combine multiple datasets, orchestrate multi-panel visuals, and narrate how emissions connect to global climate impacts.
 
 All notebooks now read from the datasets bundled in the [`data/`](data) directory so the lessons work completely offline.
